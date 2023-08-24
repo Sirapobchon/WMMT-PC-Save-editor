@@ -6,7 +6,7 @@
 #include <string.h>
 
 typedef struct{
-    char carID;
+    char carID[12];
     char carName[128];
 }CARS;
 
@@ -20,7 +20,7 @@ int detecttype(){
     int file_count;
 
     //TeknoParrot_Cars
-    file_count = 0;
+    file_count = -2;
     dirp = opendir("TeknoParrot_Cars.");
     if(dirp == NULL){
         TeknoY = 0;
@@ -28,7 +28,7 @@ int detecttype(){
     else{
         while ((dir = readdir(dirp)) != NULL){
             file_count++;
-            if(file_count > 1){
+            if(file_count > 0){
                 TeknoY = 1;
                 break;
             }else{
@@ -55,19 +55,24 @@ int detecttype(){
     //return Type
 }
 
-int TeknoParrot(CARS cars[]){
+int TeknoParrot(CARS cars[]) {
     int i = 0;
     dirp = opendir("TeknoParrot_Cars.");
-    if(dirp){
-        while ((dir = readdir(dirp)) != NULL){
-            if (strlen(dir->d_name) > 0) { // Check if the name is not empty
-                cars[i].carID = dir->d_name[0]; // Extract the first character
-                printf("%c\n", cars[i].carID);
+    if (dirp) {
+        while ((dir = readdir(dirp)) != NULL) {
+            if (strcmp(dir->d_name, ".") == 0 || strcmp(dir->d_name, "..") == 0) {
+                continue; // Skip "." and ".." entries
+            }
+            if (strlen(dir->d_name) > 0) {
+                strncpy(cars[i].carID, dir->d_name, sizeof(cars[i].carID));
+                cars[i].carName[sizeof(cars[i].carID) - 1] = '\0'; // Ensure null-termination
+                printf("%s\n", cars[i].carID);
                 i++;
             }
         }
         closedir(dirp);
     }
+    return i; // Return the number of cars processed
 }
 
 int Jconfig(){
