@@ -20,7 +20,7 @@ int detecttype(){
     int file_count;
 
     //TeknoParrot_Cars
-    file_count = -2;
+    file_count = 0;
     dirp = opendir("TeknoParrot_Cars.");
     if(dirp == NULL){
         TeknoY = 0;
