@@ -1,8 +1,9 @@
-/*
-    DetectType.h
-    Detect which type of save file in use which can be either
-        Teknoparrort file or JConfig file
-*/
+#ifndef DETECTTYPE_H
+#define DETECTTYPE_H
+
+#include <stdio.h>
+#include <dirent.h>
+#include <string.h>
 
 typedef struct{
     char carID;
@@ -59,8 +60,11 @@ int TeknoParrot(CARS cars[]){
     dirp = opendir("TeknoParrot_Cars.");
     if(dirp){
         while ((dir = readdir(dirp)) != NULL){
-            cars[i].carID = dir->d_name;
-            printf("%s\n", dir->d_name);
+            if (strlen(dir->d_name) > 0) { // Check if the name is not empty
+                cars[i].carID = dir->d_name[0]; // Extract the first character
+                printf("%c\n", cars[i].carID);
+                i++;
+            }
         }
         closedir(dirp);
     }
@@ -69,3 +73,5 @@ int TeknoParrot(CARS cars[]){
 int Jconfig(){
 
 }
+
+#endif // DETECTTYPE_H
