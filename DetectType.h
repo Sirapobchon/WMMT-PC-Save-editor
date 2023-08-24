@@ -36,7 +36,12 @@ int detecttype(){
             }
         }
     }
-    printf("Tekno is %d\n", TeknoY);
+    printf("TeknoParrort is");
+    if (TeknoY) {
+        printf(" Present\n");
+    } else {
+        printf(" not Present\n");
+    }
     closedir(dirp);
 
     /*JConfig
@@ -66,7 +71,7 @@ int TeknoParrot(CARS cars[]) {
             if (strlen(dir->d_name) > 0) {
                 strncpy(cars[i].carID, dir->d_name, sizeof(cars[i].carID));
                 cars[i].carName[sizeof(cars[i].carID) - 1] = '\0'; // Ensure null-termination
-                printf("%s\n", cars[i].carID);
+                //printf("%s\n", cars[i].carID);
                 i++;
             }
         }

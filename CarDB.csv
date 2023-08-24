@@ -1,0 +1,145 @@
+Number,HEX ID,Name
+000,00,Chevrolet Corvette ZR1
+001,01,Chevrolet Corvette ZR1 Taxi
+002,02,Chevrolet Camaro
+003,03,Chevrolet Camaro Mat
+004,04,Chevrolet Corvette Stingray
+005,05,Mazda Roadster [NCEC]
+006,06,Mazda RX-7 [FD3S]
+007,07,Mazda Savanna RX-7 [FC3S]
+008,08,Mazda RX-8 [SE3P]
+009,09,Eunos Cosmo [JCESE]
+010,0A,Mazda Mazdaspeed Atenza [GG3P]
+011,0B,Mazda Mazdaspeed Atenza School
+012,0C,Mazda Savanna RX-7 [SA22C]
+013,0D,Mazda Cosmo Sport [L10B]
+014,0E,Mitsubishi Lancer Evolution X [CZ4A]
+015,0F,Mitsubishi Lancer Evolution IX [CT9A]
+016,10,Mitsubishi Lancer Evolution VIII MR GSR [CT9A]
+017,11,Mitsubishi Lancer Evolution VIII MR RS [CT9A]
+018,12,Mitsubishi Lancer Evolution VI RS [CP9A]
+019,13,Mitsubishi Lancer Evolution VI GSR [CP9A]
+020,14,Mitsubishi Lancer Evolution V GSR [CP9A]
+021,15,Mitsubishi Lancer Evolution V RS [CP9A]
+022,16,Mitsubishi Lancer Evolution III GSR [CE9A]
+023,17,Mitsubishi Lancer Evolution III RS [CE9A]
+024,18,Mitsubishi GTO [Z16A]
+025,19,Mitsubishi Starion [A187A]
+026,1A,Mitsubishi Pajero
+027,1B,Nissan GT-R [R35]
+028,1C,Nissan GT-R Spec V [R35]
+029,1D,Nissan Skyline GT-R [BNR34]
+030,1E,Nissan Skyline GT-R Nur [BNR34]
+031,1F,Nissan Skyline GT-R [BCNR33]
+032,20,Nissan Skyline GT-R [BNR32]
+033,21,Nissan Skyline GT-R [KPGC10]
+034,22,Nissan Fairlady Z [Z34]
+035,23,Nissan Fairlady Z [Z33]
+036,24,Nissan Fairlady Z [Z32]
+037,25,Nissan Fairlady Z [Z31]
+038,26,DUMMY
+039,27,Nissan Fairlady Z [S30]
+040,28,Nissan Silvia [S15]
+041,29,Nissan 180SX [RPS13]
+042,2A,Nissan Skyline Coupe [CKV36]
+043,2B,Nissan Fuga [KY51]
+044,2C,DUMMY
+045,2D,DUMMY
+046,2E,DUMMY
+047,2F,Subaru Impreza WRX Sti [GRB]
+048,30,Subaru Impreza WRX Sti [GDB-F]
+049,31,Subaru Impreza WRX Sti WR [GDB-C]
+050,32,Subaru Impreza WRX Sti WR Limited[GDB-C]
+051,33,Subaru Impreza WRX Sti VersionVI [GC8]
+052,34,Subaru Impreza WRX Sti VersionVI M [GC8]
+053,35,Subaru B4 [BL5]
+054,36,Subaru Alcyone SVX [CXD]
+055,37,Subaru R2
+056,38,Subaru B4 [BM9]
+057,39,Toyota Supra [JZA80]
+058,3A,Toyota Supra [JZA70]
+059,3B,Toyota MR2 [SW20]
+060,3C,Toyota Chaser [JZX100]
+061,3D,Toyota Celsior [UCF10]
+062,3E,DUMMY
+063,3F,DUMMY
+064,40,DUMMY
+065,41,DUMMY
+066,42,Toyota Celsior Taxi
+067,43,DUMMY
+068,44,DUMMY
+069,45,DUMMY
+070,46,DUMMY
+071,47,Toyota Aristo [JZS161]
+072,48,Toyota Aristo Taxi
+073,49,Toyota Corolla
+074,4A,Toyota HiAce [KZH100G]
+075,4B,Toyota HiAce [KZH100GH]
+076,4C,Toyota Crown Athlete [GRS204]
+077,4D,Toyota Sprinter Trueno [AE86]
+078,4E,Toyota Celica XX [MA61]
+079,4F,Toyota 2000GT [MF10]
+080,50,Toyota 2000GT Mat
+081,51,BMW Z4 [E89]
+082,52,BMW M3 coupe [E92]
+083,53,Chevrolet Camaro Z28
+084,54,Chevrolet Corvette Sting Ray
+085,55,Eunos Roadster [NA6CE]
+086,56,Mazda Savanna [S124A]
+087,57,Mercedes-Benz 500E [W124]
+088,58,Merecedes-Benz SLK [R172]
+089,59,Mitsubishi Galant [E39A]
+090,5A,Nissan Gloria [Y33]
+091,5B,Nissan Skyline [R30]
+092,5C,Nissan Stagea
+093,5D,DUMMY
+094,5E,Subaru Impreza [GV]
+095,5F,Subaru BRZ [ZC6]
+096,60,Toyota Soarer
+097,61,Toyota 86 [ZN6]
+098,62,Toyota HiAce [KDH201V]
+099,63,DUMMY
+100,64,BMW Z4 Safety Car
+101,65,BMW M3 Mat [E92]
+102,66,Chevrolet Camaro Taxi
+103,67,Merecedes-Benz SLK Taxi
+104,68,Toyota HiAce [KDH201VH]
+105,69,BMW M1 [E26]
+106,6A,BMW M3 [E46]
+107,6B,Mercedes-Benz SLS [C197]
+108,6C,Mercedes-Benz 190E [W201]
+109,6D,Audi R8
+110,6E,Audi RS4 Avant
+111,6F,Dodge Viper [SRT10]
+112,70,Dodge Charger [SRT8]
+113,71,Subaru Levorg
+114,72,BMW M6 Gran Coupe [6C44M]
+115,73,BMW 2002
+116,74,Mazda MX-5
+117,75,Nissan Laurel [GC35]
+118,76,Nismo Nissan GT-R
+119,77,Nismo Nissan Fairlady Z
+120,78,DUMMY
+121,79,Toyota Mark II
+122,7A,Mini Countryman
+123,7B,Lamborghini Aventador
+124,7C,Lamborghini Countach
+125,7D,Lamborghini Miura
+126,7E,Lamborghini Diablo
+127,7F,Honda NSX
+128,80,Honda NSX
+129,81,Honda NSX-R
+130,82,Honda S660
+131,83,Honda S2000 Type-S
+132,84,Nissan GT-R
+133,85,Nissan Silvia S13
+134,86,DUMMY
+135,87,DUMMY
+136,88,Porsche 911
+137,89,Porsche 911
+138,8A,Porsche 911
+139,8B,Porsche 718
+140,8C,Porsche 928
+141,8D,Nissan Leopard
+142,8E,Nissan Fairlady Z
+143,8F,Mazda MX-5
