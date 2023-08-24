@@ -6,9 +6,9 @@ using C++ Code Version 0.1.2.5
 ## Current progress
   1. Can detect teknoparrot folder
   2. Display item in the teknoparrot folder
-    - Read the Car ID of each car
-      - Display car name using Database (WIP)
-    - Set car to customize in an array
+      - Read the Car ID of each car
+        - Display car name using Database (WIP)
+      - Set car to customize in an array
 
 ## Planning to do
   1. UI using ascii art (GPT doesn't help :sad:)
