@@ -11,7 +11,7 @@
 #include "AsciiArt.h"
 
 int main() {
-    std::cout << asciiArt << std::endl;
+    std::cout << asciiArt_old << std::endl;
     std::cout << "Wangan Midnight 6 Terminal with C++ code" << std::endl;
 
     std::cout << "\nDetecting type of " << std::endl;

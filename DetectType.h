@@ -58,6 +58,8 @@ int detecttype(){
     */
 
     //return Type
+
+    return 0;
 }
 
 int TeknoParrot(CARS cars[]) {
@@ -81,7 +83,7 @@ int TeknoParrot(CARS cars[]) {
 }
 
 int Jconfig(){
-
+    return 0;
 }
 
 #endif // DETECTTYPE_H
